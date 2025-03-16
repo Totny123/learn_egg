@@ -22,7 +22,16 @@ module.exports = {
   // 配置全局中间件
   middleware: ['mymid'],
   // 配置中间件的options
-  mymid:{
-    name:'mymid'
-  }
+  mymid: {
+    name: 'mymid',
+  },
+  // TODO:
+  // redis: {
+  //   client: {
+  //     port: 6379,
+  //     host: '127.0.0.1',
+  //     password: 'auth',
+  //     db: 0, 
+  //   },
+  // },
 };
